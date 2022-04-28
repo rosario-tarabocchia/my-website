@@ -1,0 +1,179 @@
+
+:root {
+  --primary-color: #19647e;
+  --primary-variant: #259bae;
+  --secondary-color: #e96746;
+  --on-primary: #fbf5f3;
+  --on-background: #37392e;
+  --on-background-alt: #4f5143;
+  --background: #fbf5f3;
+  --box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    margin: 0;
+    background-color: var(--background);
+}
+
+.test {
+    color: #259bae;
+}
+
+.small-logo {
+    width: 60px;
+    height: auto;
+}
+
+.navbar {
+  background-color: #fbf5f3;
+    font-family: "Oswald", sans-serif;
+    position: fixed;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    padding: 15px 15px 15px 25px;
+    width: 100vw;
+}
+.navbar .navbar-brand {
+  color: #259bae;
+
+}
+.navbar .navbar-brand:hover {
+    color:#19647e;
+}
+
+.navbar .navbar-brand:focus {
+  color: #e96746;
+}
+.navbar .navbar-text {
+  color: #259bae;
+}
+.navbar .navbar-text a {
+  color: #e96746;
+}
+
+.navbar .navbar-text a:hover {
+    color:#19647e;
+}
+
+.navbar .navbar-text a:focus {
+  color: #e96746; 
+}
+.navbar .navbar-nav .nav-link {
+  color: #259bae;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+
+.navbar .navbar-nav .nav-link:not(.disabled):hover{
+    color:#19647e;
+}
+
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #e96746;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #e96746;
+  background-color: #fbf5f3;
+}
+.navbar .navbar-toggler {
+  border-color: #fbf5f3;
+}
+.navbar .navbar-toggler:hover,
+.navbar .navbar-toggler:focus {
+  background-color: #fbf5f3;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  color: #259bae;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #259bae;
+}
+.navbar .navbar-link {
+  color: #259bae;
+}
+.navbar .navbar-link:hover {
+  color: #e96746;
+}
+
+@media (max-width: 575px) {
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #259bae;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #e96746;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #e96746;
+    background-color: #fbf5f3;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #259bae;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #e96746;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #e96746;
+    background-color: #fbf5f3;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #259bae;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #e96746;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #e96746;
+    background-color: #fbf5f3;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #259bae;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #e96746;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #e96746;
+    background-color: #fbf5f3;
+  }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #259bae;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+  color: #e96746;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #e96746;
+  background-color: #fbf5f3;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
