@@ -12,20 +12,32 @@
 
 body {
     margin: 0;
-    background-color: var(--background);
+    background-color: #fbf5f3;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e96746' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-.test {
-    color: #259bae;
+img {
+  object-fit: contain;
+  max-width: 500px;
+  height: auto;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
 }
 
 .small-logo {
-    width: 60px;
+    width: 75px;
     height: auto;
 }
 
 .navbar {
-  background-color: #fbf5f3;
+    background-color: rgba(251, 245, 243, .2);
     font-family: "Oswald", sans-serif;
     position: fixed;
     font-size: 1.5rem;
